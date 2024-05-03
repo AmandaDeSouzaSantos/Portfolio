@@ -1,17 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+    box-sizing: border-box;
+    height: 100vh;
     background-color: mistyrose;
     color: black;
 }
+
 h1{
     font-weight: bold;
 }
-span{
-    color: black;
-    border: 1px solid lightcoral;
-    padding: 10px;
-}
 
 strong{
-    color: lightcoral;
+    color: black;
+}
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    border: 1px solid indianred;
+}
+
+.apresentacao__conteudo__titulo{
+    font-family:"Noto Sans Display", sans-serif ;
+    color: black;
+    padding: 4px;
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+}
+
+p{
+    padding: 10px;
 }
 
