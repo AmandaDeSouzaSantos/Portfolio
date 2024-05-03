@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -17,24 +18,30 @@ h1{
 }
 
 strong{
-    color: black;
+    font-weight: bold;
 }
+
 .apresentacao{
-    margin: 10%;
+    margin: 10% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 615px;
-    border: 1px solid indianred;
+    border-width: 3px;
+    border-color: lightcoral;
+    border-style: dotted;
+    padding: 20px;
 }
 
 .apresentacao__conteudo__titulo{
     font-family:"Noto Sans Display", sans-serif ;
     color: black;
-    padding: 4px;
     font-size: 36px;
 }
 
@@ -42,7 +49,22 @@ strong{
     font-size: 24px;
 }
 
-p{
-    padding: 10px;
+.apresentacao__conteudo__links{
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__conteudo__links__link{
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 600;
+    color: black;
+    padding: 15px 0;
+    font-size: 25px;
+    background-color: indianred;
+    width: 230px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
 }
 
