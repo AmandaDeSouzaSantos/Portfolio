@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Notable&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Chonburi&display=swap');
 
 *{
     margin: 0px;
@@ -11,45 +12,44 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('fundo.png');
+    background-image: url('asses/fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
 }
 
 strong{
-    font-weight: bold;
+    font-weight:600;
 }
 
 .quadrado{
-    width: 1100px;
-    height: 500px;
-    background-color: rgba(199, 185, 197, 0.75);
-    border-radius: 30px;
-
+    width: 1200px;
+    height: 630px;
+    background-color: rgba(248, 199, 201, 0.5);
+    border-radius: 120px;
 }
 .apresentacao{
+    padding: 18px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content:space-evenly;
-    padding: 20px;
+    justify-content: center;
 }
 
 .apresentacao__conteudo{
+    padding: 35px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 440px;
-    width: 500px;
-    padding: 10px;
+    height: 600;
+    width: 1200px;
 }
 
 .apresentacao__conteudo__titulo{
     font-weight: bold;
-    font-family:"Noto Sans Display", sans-serif ;
+    font-family: "Chonburi", serif;
     color: black;
-    font-size: 37px;
+    font-size: 36px;
 }
 
 .apresentacao__conteudo__texto{
@@ -58,26 +58,34 @@ strong{
 }
 
 .apresentacao__conteudo__links{
+    font-family: "Chonburi", serif;
+    font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .apresentacao__conteudo__links__link{
-    font-family: "Noto Sans Display", sans-serif;
-    font-weight: 600;
+    display: flex;
+    align-items:center;
+    border: 2px solid black;
     color: black;
-    padding: 20px 0;
     font-size: 25px;
-    background-color: #f8c7c9;
-    width: 230px;
-    border-radius: 30px;
+    height: 70px;
+    width: 290px;
+    border-radius: 120px;
     text-align: center;
     text-decoration: none;
 }
+.apresentacao__conteudo__links__link:hover{
+    background-color: #88BBD8;
+}
 
 img{
-    border-radius: 30px;
-    max-width: 450px;
+    padding: 42px;
+    border-radius: 120px;
+    max-width: 500px;
     height: auto;
 }
 
